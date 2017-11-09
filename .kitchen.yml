@@ -1,0 +1,18 @@
+---
+provisioner:
+  name: chef_solo
+  require_chef_omnibus: 12
+
+platforms:
+  - name: vagrant-14.04
+    driver:
+      name: vagrant
+      box: ubuntu/trusty64
+
+suites:
+  - name: repro-python-home
+    run_list:
+      - recipe[repro_python_home]
+  - name: repro-python-home-works
+    run_list:
+      - recipe[repro_python_home_works]

@@ -1,0 +1,335 @@
+I, [2017-11-08T17:30:22.507439 #5433]  INFO -- repro-python-home-works-vagrant-1404: -----> Creating <repro-python-home-works-vagrant-1404>...
+I, [2017-11-08T17:30:24.354906 #5433]  INFO -- repro-python-home-works-vagrant-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-11-08T17:30:24.533024 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Importing base box 'ubuntu/trusty64'...
+I, [2017-11-08T17:30:34.131627 #5433]  INFO -- repro-python-home-works-vagrant-1404: [KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-11-08T17:30:34.295519 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Checking if box 'ubuntu/trusty64' is up to date...
+I, [2017-11-08T17:30:36.770307 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: A newer version of the box 'ubuntu/trusty64' is available! You currently
+I, [2017-11-08T17:30:36.770385 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: have version '20171010.0.0'. The latest is version '20171101.0.0'. Run
+I, [2017-11-08T17:30:36.770422 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: `vagrant box update` to update.
+I, [2017-11-08T17:30:37.292026 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Setting the name of the VM: repro-python-home-works-vagrant-1404_default_1510180237248_57712
+I, [2017-11-08T17:30:37.401989 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Clearing any previously set forwarded ports...
+I, [2017-11-08T17:30:38.222186 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Fixed port collision for 22 => 2222. Now on port 2201.
+I, [2017-11-08T17:30:38.277983 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Clearing any previously set network interfaces...
+I, [2017-11-08T17:30:38.328447 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2017-11-08T17:30:38.328931 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: Adapter 1: nat
+I, [2017-11-08T17:30:38.377591 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Forwarding ports...
+I, [2017-11-08T17:30:38.456680 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: 22 (guest) => 2201 (host) (adapter 1)
+I, [2017-11-08T17:30:38.599514 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Booting VM...
+I, [2017-11-08T17:30:38.826223 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-11-08T17:30:39.148438 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: SSH address: 127.0.0.1:2201
+I, [2017-11-08T17:30:39.148751 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: SSH username: vagrant
+I, [2017-11-08T17:30:39.148928 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: SSH auth method: private key
+I, [2017-11-08T17:30:57.490944 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: 
+I, [2017-11-08T17:30:57.491226 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-11-08T17:30:57.491263 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: this with a newly generated keypair for better security.
+I, [2017-11-08T17:30:58.303646 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: 
+I, [2017-11-08T17:30:58.303716 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: Inserting generated public key within guest...
+I, [2017-11-08T17:30:58.362893 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: Removing insecure key from the guest if it's present...
+I, [2017-11-08T17:30:58.423911 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-11-08T17:30:59.896373 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Machine booted and ready!
+I, [2017-11-08T17:30:59.896743 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Checking for guest additions in VM...
+I, [2017-11-08T17:30:59.944103 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: The guest additions on this VM do not match the installed version of
+I, [2017-11-08T17:30:59.944238 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2017-11-08T17:30:59.944280 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: prevent things such as shared folders from working properly. If you see
+I, [2017-11-08T17:30:59.944335 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: shared folder errors, please make sure the guest additions within the
+I, [2017-11-08T17:30:59.944384 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2017-11-08T17:30:59.944423 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: your host and reload your VM.
+I, [2017-11-08T17:30:59.944476 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: 
+I, [2017-11-08T17:30:59.944515 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: Guest Additions Version: 4.3.36
+I, [2017-11-08T17:30:59.944558 #5433]  INFO -- repro-python-home-works-vagrant-1404:     default: VirtualBox Version: 5.1
+I, [2017-11-08T17:30:59.945247 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Setting hostname...
+I, [2017-11-08T17:31:00.141402 #5433]  INFO -- repro-python-home-works-vagrant-1404: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-11-08T17:31:03.081077 #5433]  INFO -- repro-python-home-works-vagrant-1404: [SSH] Established
+I, [2017-11-08T17:31:03.081303 #5433]  INFO -- repro-python-home-works-vagrant-1404: Vagrant instance <repro-python-home-works-vagrant-1404> created.
+I, [2017-11-08T17:31:03.082535 #5433]  INFO -- repro-python-home-works-vagrant-1404: Finished creating <repro-python-home-works-vagrant-1404> (0m40.57s).
+I, [2017-11-08T17:31:03.082817 #5433]  INFO -- repro-python-home-works-vagrant-1404: -----> Converging <repro-python-home-works-vagrant-1404>...
+I, [2017-11-08T17:31:03.083444 #5433]  INFO -- repro-python-home-works-vagrant-1404: Preparing files for transfer
+I, [2017-11-08T17:31:03.083542 #5433]  INFO -- repro-python-home-works-vagrant-1404: Preparing dna.json
+I, [2017-11-08T17:31:03.083923 #5433]  INFO -- repro-python-home-works-vagrant-1404: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2017-11-08T17:31:03.232947 #5433]  INFO -- repro-python-home-works-vagrant-1404: Removing non-cookbook files before transfer
+I, [2017-11-08T17:31:03.245626 #5433]  INFO -- repro-python-home-works-vagrant-1404: Preparing solo.rb
+I, [2017-11-08T17:31:03.256456 #5433]  INFO -- repro-python-home-works-vagrant-1404: -----> Installing Chef Omnibus (12)
+I, [2017-11-08T17:31:03.257155 #5433]  INFO -- repro-python-home-works-vagrant-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-11-08T17:31:03.258092 #5433]  INFO -- repro-python-home-works-vagrant-1404: Trying wget...
+I, [2017-11-08T17:31:03.353665 #5433]  INFO -- repro-python-home-works-vagrant-1404: Download complete.
+I, [2017-11-08T17:31:03.366747 #5433]  INFO -- repro-python-home-works-vagrant-1404: ubuntu 14.04 x86_64
+I, [2017-11-08T17:31:03.367048 #5433]  INFO -- repro-python-home-works-vagrant-1404: Getting information for chef stable 12 for ubuntu...
+I, [2017-11-08T17:31:03.367542 #5433]  INFO -- repro-python-home-works-vagrant-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=12&p=ubuntu&pv=14.04&m=x86_64
+I, [2017-11-08T17:31:03.367749 #5433]  INFO -- repro-python-home-works-vagrant-1404:   to file /tmp/install.sh.1892/metadata.txt
+I, [2017-11-08T17:31:03.368399 #5433]  INFO -- repro-python-home-works-vagrant-1404: trying wget...
+I, [2017-11-08T17:31:03.440224 #5433]  INFO -- repro-python-home-works-vagrant-1404: sha1	b21baa643ef453f488351cd5623756e19ebec749
+I, [2017-11-08T17:31:03.440935 #5433]  INFO -- repro-python-home-works-vagrant-1404: sha256	f2320ba894d92e4fd8fbae81546a70f124754cd40be388ba44de8180fbc2ea4d
+I, [2017-11-08T17:31:03.441277 #5433]  INFO -- repro-python-home-works-vagrant-1404: url	https://packages.chef.io/files/stable/chef/12.21.26/ubuntu/14.04/chef_12.21.26-1_amd64.deb
+I, [2017-11-08T17:31:03.441906 #5433]  INFO -- repro-python-home-works-vagrant-1404: version	12.21.26
+I, [2017-11-08T17:31:03.443622 #5433]  INFO -- repro-python-home-works-vagrant-1404: downloaded metadata file looks valid...
+I, [2017-11-08T17:31:03.449158 #5433]  INFO -- repro-python-home-works-vagrant-1404: downloading https://packages.chef.io/files/stable/chef/12.21.26/ubuntu/14.04/chef_12.21.26-1_amd64.deb
+I, [2017-11-08T17:31:03.449368 #5433]  INFO -- repro-python-home-works-vagrant-1404:   to file /tmp/install.sh.1892/chef_12.21.26-1_amd64.deb
+I, [2017-11-08T17:31:03.449598 #5433]  INFO -- repro-python-home-works-vagrant-1404: trying wget...
+I, [2017-11-08T17:31:10.617687 #5433]  INFO -- repro-python-home-works-vagrant-1404: Comparing checksum with sha256sum...
+I, [2017-11-08T17:31:10.821665 #5433]  INFO -- repro-python-home-works-vagrant-1404: Installing chef 12
+I, [2017-11-08T17:31:10.822001 #5433]  INFO -- repro-python-home-works-vagrant-1404: installing with dpkg...
+I, [2017-11-08T17:31:11.147278 #5433]  INFO -- repro-python-home-works-vagrant-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 63103 files and directories currently installed.)
+I, [2017-11-08T17:31:11.149682 #5433]  INFO -- repro-python-home-works-vagrant-1404: Preparing to unpack .../chef_12.21.26-1_amd64.deb ...
+I, [2017-11-08T17:31:11.213870 #5433]  INFO -- repro-python-home-works-vagrant-1404:  * Stopping chef-client chef-client       [80G [74G[ OK ]
+I, [2017-11-08T17:31:11.220703 #5433]  INFO -- repro-python-home-works-vagrant-1404: Unpacking chef (12.21.26-1) over (11.8.2-2) ...
+I, [2017-11-08T17:31:15.169856 #5433]  INFO -- repro-python-home-works-vagrant-1404: dpkg: warning: unable to delete old directory '/var/log/chef': Directory not empty
+I, [2017-11-08T17:31:15.171747 #5433]  INFO -- repro-python-home-works-vagrant-1404: dpkg: warning: unable to delete old directory '/etc/chef': Directory not empty
+I, [2017-11-08T17:31:15.201265 #5433]  INFO -- repro-python-home-works-vagrant-1404: Setting up chef (12.21.26-1) ...
+I, [2017-11-08T17:31:15.265386 #5433]  INFO -- repro-python-home-works-vagrant-1404: Thank you for installing Chef!
+I, [2017-11-08T17:31:15.272885 #5433]  INFO -- repro-python-home-works-vagrant-1404: Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+I, [2017-11-08T17:31:15.641545 #5433]  INFO -- repro-python-home-works-vagrant-1404: Transferring files to <repro-python-home-works-vagrant-1404>
+I, [2017-11-08T17:31:16.986170 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:16+00:00] INFO: Forking chef instance to converge...
+I, [2017-11-08T17:31:16.991364 #5433]  INFO -- repro-python-home-works-vagrant-1404: Starting Chef Client, version 12.21.26
+I, [2017-11-08T17:31:16.991811 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:16+00:00] INFO: *** Chef 12.21.26 ***
+I, [2017-11-08T17:31:16.992267 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:16+00:00] INFO: Platform: x86_64-linux
+I, [2017-11-08T17:31:16.992888 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:16+00:00] INFO: Chef-client pid: 2392
+I, [2017-11-08T17:31:16.994698 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:16+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+I, [2017-11-08T17:31:19.028439 #5433]  INFO -- repro-python-home-works-vagrant-1404: Creating a new client identity for repro-python-home-works-vagrant-1404 using the validator key.
+I, [2017-11-08T17:31:19.028785 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:18+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2017-11-08T17:31:19.203539 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: chefzero://localhost:8889/nodes/repro-python-home-works-vagrant-1404
+I, [2017-11-08T17:31:19.205934 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Setting the run_list to ["recipe[repro_python_home_works]"] from CLI options
+I, [2017-11-08T17:31:19.219425 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Run List is [recipe[repro_python_home_works]]
+I, [2017-11-08T17:31:19.220053 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Run List expands to [repro_python_home_works]
+I, [2017-11-08T17:31:19.220756 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Starting Chef Run for repro-python-home-works-vagrant-1404
+I, [2017-11-08T17:31:19.220967 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Running start handlers
+I, [2017-11-08T17:31:19.221188 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Start handlers complete.
+I, [2017-11-08T17:31:19.222188 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2017-11-08T17:31:19.222999 #5433]  INFO -- repro-python-home-works-vagrant-1404: resolving cookbooks for run list: ["repro_python_home_works"]
+I, [2017-11-08T17:31:19.450169 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Loading cookbooks [repro_python_home_works@0.0.0, poise-python@1.6.0, poise@2.8.1, poise-languages@2.1.1, poise-archive@1.5.0]
+I, [2017-11-08T17:31:19.454184 #5433]  INFO -- repro-python-home-works-vagrant-1404: Synchronizing Cookbooks:
+I, [2017-11-08T17:31:19.459166 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/repro_python_home_works/recipes/default.rb in the cache.
+I, [2017-11-08T17:31:19.459436 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/repro_python_home_works/files/default/test_python_project/setup.py in the cache.
+I, [2017-11-08T17:31:19.459595 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/repro_python_home_works/metadata.json in the cache.
+I, [2017-11-08T17:31:19.459770 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/recipes/default.rb in the cache.
+I, [2017-11-08T17:31:19.466982 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/attributes/default.rb in the cache.
+I, [2017-11-08T17:31:19.467521 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/cheftie.rb in the cache.
+I, [2017-11-08T17:31:19.468534 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/error.rb in the cache.
+I, [2017-11-08T17:31:19.468801 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_command_mixin.rb in the cache.
+I, [2017-11-08T17:31:19.469387 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb in the cache.
+I, [2017-11-08T17:31:19.469848 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/dummy.rb in the cache.
+I, [2017-11-08T17:31:19.472199 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/msi.rb in the cache.
+I, [2017-11-08T17:31:19.472630 #5433]  INFO -- repro-python-home-works-vagrant-1404:   [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/libraries/default.rb in the cache.
+I, [2017-11-08T17:31:19.473349 #5433]  INFO -- repro-python-home-works-vagrant-1404: - repro_python_home_works (0.0.0)
+I, [2017-11-08T17:31:19.483597 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/scl.rb in the cache.
+I, [2017-11-08T17:31:19.483947 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/system.rb in the cache.
+I, [2017-11-08T17:31:19.484185 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers.rb in the cache.
+I, [2017-11-08T17:31:19.484358 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/pip_requirements.rb in the cache.
+I, [2017-11-08T17:31:19.484612 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/python_execute.rb in the cache.
+I, [2017-11-08T17:31:19.484757 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/python_package.rb in the cache.
+I, [2017-11-08T17:31:19.490631 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/python_runtime_test.rb in the cache.
+I, [2017-11-08T17:31:19.494684 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/utils/python_encoder.rb in the cache.
+I, [2017-11-08T17:31:19.495048 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/python_virtualenv.rb in the cache.
+I, [2017-11-08T17:31:19.495268 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources.rb in the cache.
+I, [2017-11-08T17:31:19.495408 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/portable_pypy3.rb in the cache.
+I, [2017-11-08T17:31:19.503460 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python.rb in the cache.
+I, [2017-11-08T17:31:19.504022 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/utils.rb in the cache.
+I, [2017-11-08T17:31:19.504434 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/version.rb in the cache.
+I, [2017-11-08T17:31:19.504748 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/python_providers/portable_pypy.rb in the cache.
+I, [2017-11-08T17:31:19.505300 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/python_runtime_pip.rb in the cache.
+I, [2017-11-08T17:31:19.505781 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/README.md in the cache.
+I, [2017-11-08T17:31:19.506193 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/files/halite_gem/poise_python/resources/python_runtime.rb in the cache.
+I, [2017-11-08T17:31:19.506473 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-python/metadata.json in the cache.
+I, [2017-11-08T17:31:19.518219 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/backports/verify_path.rb in the cache.
+I, [2017-11-08T17:31:19.519196 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/backports.rb in the cache.
+I, [2017-11-08T17:31:19.519422 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/error.rb in the cache.
+I, [2017-11-08T17:31:19.519872 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/chefspec_matchers.rb in the cache.
+I, [2017-11-08T17:31:19.520616 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/defined_in.rb in the cache.
+I, [2017-11-08T17:31:19.521292 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/fused.rb in the cache.
+I, [2017-11-08T17:31:19.522169 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/backports/not_passed.rb in the cache.
+I, [2017-11-08T17:31:19.522625 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/libraries/default.rb in the cache.
+I, [2017-11-08T17:31:19.523094 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/include_recipe.rb in the cache.
+I, [2017-11-08T17:31:19.523484 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - poise-python (1.6.0)
+I, [2017-11-08T17:31:19.530737 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/inversion/options_provider.rb in the cache.
+I, [2017-11-08T17:31:19.534911 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/resource_cloning.rb in the cache.
+I, [2017-11-08T17:31:19.535245 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/inversion/options_resource.rb in the cache.
+I, [2017-11-08T17:31:19.535492 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/inversion.rb in the cache.
+I, [2017-11-08T17:31:19.535701 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/lazy_default.rb in the cache.
+I, [2017-11-08T17:31:19.539710 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources/child.rb in the cache.
+I, [2017-11-08T17:31:19.539949 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/lwrp_polyfill.rb in the cache.
+I, [2017-11-08T17:31:19.543492 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources.rb in the cache.
+I, [2017-11-08T17:31:19.544184 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/notifying_block.rb in the cache.
+I, [2017-11-08T17:31:19.544500 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/option_collector.rb in the cache.
+I, [2017-11-08T17:31:19.544668 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/resource_name.rb in the cache.
+I, [2017-11-08T17:31:19.545191 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/resource_subclass.rb in the cache.
+I, [2017-11-08T17:31:19.547039 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subcontext_block.rb in the cache.
+I, [2017-11-08T17:31:19.547661 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources/container.rb in the cache.
+I, [2017-11-08T17:31:19.548336 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/subresources/default_containers.rb in the cache.
+I, [2017-11-08T17:31:19.555041 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/resource.rb in the cache.
+I, [2017-11-08T17:31:19.556328 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/provider.rb in the cache.
+I, [2017-11-08T17:31:19.558861 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/subcontext/runner.rb in the cache.
+I, [2017-11-08T17:31:19.566494 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils/resource_provider_mixin.rb in the cache.
+I, [2017-11-08T17:31:19.567417 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils/shell_out.rb in the cache.
+I, [2017-11-08T17:31:19.568132 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils/win32.rb in the cache.
+I, [2017-11-08T17:31:19.568419 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers.rb in the cache.
+I, [2017-11-08T17:31:19.571475 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/utils.rb in the cache.
+I, [2017-11-08T17:31:19.571986 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/win32_user.rb in the cache.
+I, [2017-11-08T17:31:19.572504 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/version.rb in the cache.
+I, [2017-11-08T17:31:19.572820 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/subcontext.rb in the cache.
+I, [2017-11-08T17:31:19.582133 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/subcontext/resource_collection.rb in the cache.
+I, [2017-11-08T17:31:19.583055 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/metadata.json in the cache.
+I, [2017-11-08T17:31:19.583320 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/libraries/default.rb in the cache.
+I, [2017-11-08T17:31:19.583516 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/command/mixin.rb in the cache.
+I, [2017-11-08T17:31:19.584106 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/command.rb in the cache.
+I, [2017-11-08T17:31:19.584476 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/error.rb in the cache.
+I, [2017-11-08T17:31:19.584666 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/scl/mixin.rb in the cache.
+I, [2017-11-08T17:31:19.584856 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise/helpers/template_content.rb in the cache.
+I, [2017-11-08T17:31:19.590279 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/static/resource.rb in the cache.
+I, [2017-11-08T17:31:19.597122 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/system/resource.rb in the cache.
+I, [2017-11-08T17:31:19.597372 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/README.md in the cache.
+I, [2017-11-08T17:31:19.600034 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/utils.rb in the cache.
+I, [2017-11-08T17:31:19.601643 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages.rb in the cache.
+I, [2017-11-08T17:31:19.601914 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/system.rb in the cache.
+I, [2017-11-08T17:31:19.602535 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/utils/which.rb in the cache.
+I, [2017-11-08T17:31:19.603156 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/scl.rb in the cache.
+I, [2017-11-08T17:31:19.603354 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/static/mixin.rb in the cache.
+I, [2017-11-08T17:31:19.603919 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/system/mixin.rb in the cache.
+I, [2017-11-08T17:31:19.604181 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/scl/resource.rb in the cache.
+I, [2017-11-08T17:31:19.604351 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/static.rb in the cache.
+I, [2017-11-08T17:31:19.605363 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/files/halite_gem/poise_languages/version.rb in the cache.
+I, [2017-11-08T17:31:19.605703 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise/files/halite_gem/poise.rb in the cache.
+I, [2017-11-08T17:31:19.612918 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/metadata.json in the cache.
+I, [2017-11-08T17:31:19.613262 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/libraries/default.rb in the cache.
+I, [2017-11-08T17:31:19.613460 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/attributes/default.rb in the cache.
+I, [2017-11-08T17:31:19.614042 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/base.rb in the cache.
+I, [2017-11-08T17:31:19.620837 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/zip.rb in the cache.
+I, [2017-11-08T17:31:19.621493 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers.rb in the cache.
+I, [2017-11-08T17:31:19.622515 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - poise (2.8.1)
+I, [2017-11-08T17:31:19.632015 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/constants.rb in the cache.
+I, [2017-11-08T17:31:19.632337 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/crc.rb in the cache.
+I, [2017-11-08T17:31:19.633892 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/decompressor.rb in the cache.
+I, [2017-11-08T17:31:19.634952 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/input_data.rb in the cache.
+I, [2017-11-08T17:31:19.635846 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/seven_zip.rb in the cache.
+I, [2017-11-08T17:31:19.636725 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/output_data.rb in the cache.
+I, [2017-11-08T17:31:19.637062 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-languages/README.md in the cache.
+I, [2017-11-08T17:31:19.637296 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/gnu_tar.rb in the cache.
+I, [2017-11-08T17:31:19.638068 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2/LICENSE in the cache.
+I, [2017-11-08T17:31:19.638381 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/archive_providers/tar.rb in the cache.
+I, [2017-11-08T17:31:19.648236 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/resources/poise_archive.rb in the cache.
+I, [2017-11-08T17:31:19.648545 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/resources.rb in the cache.
+I, [2017-11-08T17:31:19.648739 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/version.rb in the cache.
+I, [2017-11-08T17:31:19.649174 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive.rb in the cache.
+I, [2017-11-08T17:31:19.650010 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/README.md in the cache.
+I, [2017-11-08T17:31:19.650310 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/metadata.json in the cache.
+I, [2017-11-08T17:31:19.650668 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - poise-languages (2.1.1)
+I, [2017-11-08T17:31:19.651880 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/cheftie.rb in the cache.
+I, [2017-11-08T17:31:19.652793 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: Storing updated cookbooks/poise-archive/files/halite_gem/poise_archive/bzip2.rb in the cache.
+I, [2017-11-08T17:31:19.653567 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - poise-archive (1.5.0)
+I, [2017-11-08T17:31:19.654145 #5433]  INFO -- repro-python-home-works-vagrant-1404: Installing Cookbook Gems:
+I, [2017-11-08T17:31:19.654819 #5433]  INFO -- repro-python-home-works-vagrant-1404: Compiling Cookbooks...
+I, [2017-11-08T17:31:19.735650 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:19+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2017-11-08T17:31:19.736005 #5433]  INFO -- repro-python-home-works-vagrant-1404: Converging 6 resources
+I, [2017-11-08T17:31:19.736818 #5433]  INFO -- repro-python-home-works-vagrant-1404: Recipe: repro_python_home_works::default
+I, [2017-11-08T17:31:19.737662 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_runtime[foo] action install[2017-11-08T22:31:19+00:00] INFO: Processing python_runtime[foo] action install (repro_python_home_works::default line 1)
+I, [2017-11-08T17:31:19.758096 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:19.759077 #5433]  INFO -- repro-python-home-works-vagrant-1404:     * poise_languages_system[python3.4] action install[2017-11-08T22:31:19+00:00] INFO: Processing poise_languages_system[python3.4] action install (/tmp/kitchen/cache/cookbooks/poise-languages/files/halite_gem/poise_languages/system/mixin.rb line 32)
+I, [2017-11-08T17:31:26.206392 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:26+00:00] INFO: apt_package[python3.4, python3.4-dev] installed ["python3.4-dev"] at ["3.4.3-1ubuntu1~14.04.5"]
+I, [2017-11-08T17:31:26.206449 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:26.206469 #5433]  INFO -- repro-python-home-works-vagrant-1404:       - install version 3.4.3-1ubuntu1~14.04.5 of package python3.4-dev
+I, [2017-11-08T17:31:26.206498 #5433]  INFO -- repro-python-home-works-vagrant-1404:     * apt_package[python3.4, python3.4-dev] action nothing[2017-11-08T22:31:26+00:00] INFO: Processing apt_package[python3.4, python3.4-dev] action nothing (/tmp/kitchen/cache/cookbooks/poise-languages/files/halite_gem/poise_languages/system/resource.rb line 144)
+I, [2017-11-08T17:31:26.206520 #5433]  INFO -- repro-python-home-works-vagrant-1404:  (skipped due to action :nothing)
+I, [2017-11-08T17:31:26.206534 #5433]  INFO -- repro-python-home-works-vagrant-1404:   
+I, [2017-11-08T17:31:26.302510 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_runtime_pip[foo] action install[2017-11-08T22:31:26+00:00] INFO: Processing python_runtime_pip[foo] action install (/tmp/kitchen/cache/cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb line 118)
+I, [2017-11-08T17:31:30.431976 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:30.432275 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - Bootstrapping pip latest from https://bootstrap.pypa.io/get-pip.py
+I, [2017-11-08T17:31:30.432312 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_package[setuptools] action install[2017-11-08T22:31:30+00:00] INFO: Processing python_package[setuptools] action install (/tmp/kitchen/cache/cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb line 138)
+I, [2017-11-08T17:31:32.946113 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:32+00:00] INFO: python_package[setuptools] installed setuptools at 36.6.0
+I, [2017-11-08T17:31:32.946186 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:32.946219 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - install version 36.6.0 of package setuptools
+I, [2017-11-08T17:31:32.946240 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_package[wheel] action install[2017-11-08T22:31:32+00:00] INFO: Processing python_package[wheel] action install (/tmp/kitchen/cache/cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb line 153)
+I, [2017-11-08T17:31:35.153395 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:35+00:00] INFO: python_package[wheel] installed wheel at 0.30.0
+I, [2017-11-08T17:31:35.153823 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:35.154869 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - install version 0.30.0 of package wheel
+I, [2017-11-08T17:31:35.155153 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:35.156126 #5433]  INFO -- repro-python-home-works-vagrant-1404: * python_virtualenv[/home/ubuntu/.virtualenvs/testvenv] action create[2017-11-08T22:31:35+00:00] INFO: Processing python_virtualenv[/home/ubuntu/.virtualenvs/testvenv] action create (repro_python_home_works::default line 12)
+I, [2017-11-08T17:31:35.352460 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:35.353563 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - Creating venv at /home/ubuntu/.virtualenvs/testvenv
+I, [2017-11-08T17:31:35.354441 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_runtime_pip[/home/ubuntu/.virtualenvs/testvenv] action install[2017-11-08T22:31:35+00:00] INFO: Processing python_runtime_pip[/home/ubuntu/.virtualenvs/testvenv] action install (/tmp/kitchen/cache/cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb line 118)
+I, [2017-11-08T17:31:39.785681 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:39.785734 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - Bootstrapping pip latest from https://bootstrap.pypa.io/get-pip.py
+I, [2017-11-08T17:31:39.785759 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_package[setuptools] action install[2017-11-08T22:31:39+00:00] INFO: Processing python_package[setuptools] action install (/tmp/kitchen/cache/cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb line 138)
+I, [2017-11-08T17:31:42.087834 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:42+00:00] INFO: python_package[setuptools] installed setuptools at 36.6.0
+I, [2017-11-08T17:31:42.088022 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:42.089315 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - install version 36.6.0 of package setuptools
+I, [2017-11-08T17:31:42.090278 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_package[wheel] action install[2017-11-08T22:31:42+00:00] INFO: Processing python_package[wheel] action install (/tmp/kitchen/cache/cookbooks/poise-python/files/halite_gem/poise_python/python_providers/base.rb line 153)
+I, [2017-11-08T17:31:43.691232 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:43+00:00] INFO: python_package[wheel] installed wheel at 0.30.0
+I, [2017-11-08T17:31:43.691668 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.692637 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - install version 0.30.0 of package wheel
+I, [2017-11-08T17:31:43.692885 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.693975 #5433]  INFO -- repro-python-home-works-vagrant-1404: * remote_directory[/home/ubuntu/test_python_project] action create[2017-11-08T22:31:43+00:00] INFO: Processing remote_directory[/home/ubuntu/test_python_project] action create (repro_python_home_works::default line 17)
+I, [2017-11-08T17:31:43.696534 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:43+00:00] INFO: remote_directory[/home/ubuntu/test_python_project] created directory /home/ubuntu/test_python_project
+I, [2017-11-08T17:31:43.696718 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.699091 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - create new directory /home/ubuntu/test_python_project[2017-11-08T22:31:43+00:00] INFO: remote_directory[/home/ubuntu/test_python_project] owner changed to 1001
+I, [2017-11-08T17:31:43.700610 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:43+00:00] INFO: remote_directory[/home/ubuntu/test_python_project] group changed to 1001
+I, [2017-11-08T17:31:43.700959 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.702015 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - change owner from '' to 'ubuntu'
+I, [2017-11-08T17:31:43.704591 #5433]  INFO -- repro-python-home-works-vagrant-1404:   - change group from '' to 'ubuntu'
+I, [2017-11-08T17:31:43.705171 #5433]  INFO -- repro-python-home-works-vagrant-1404: Recipe: <Dynamically Defined Resource>
+I, [2017-11-08T17:31:43.706644 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * cookbook_file[/home/ubuntu/test_python_project/setup.py] action create[2017-11-08T22:31:43+00:00] INFO: Processing cookbook_file[/home/ubuntu/test_python_project/setup.py] action create (dynamically defined)
+I, [2017-11-08T17:31:43.810514 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:43+00:00] INFO: cookbook_file[/home/ubuntu/test_python_project/setup.py] created file /home/ubuntu/test_python_project/setup.py
+I, [2017-11-08T17:31:43.810672 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.816807 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - create new file /home/ubuntu/test_python_project/setup.py[2017-11-08T22:31:43+00:00] INFO: cookbook_file[/home/ubuntu/test_python_project/setup.py] updated file contents /home/ubuntu/test_python_project/setup.py
+I, [2017-11-08T17:31:43.818117 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.820317 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - update content in file /home/ubuntu/test_python_project/setup.py from none to dc17bb
+I, [2017-11-08T17:31:43.820686 #5433]  INFO -- repro-python-home-works-vagrant-1404:     --- /home/ubuntu/test_python_project/setup.py	2017-11-08 22:31:43.772842858 +0000
+I, [2017-11-08T17:31:43.821000 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +++ /home/ubuntu/test_python_project/.chef-setup20171108-2392-st87dy.py	2017-11-08 22:31:43.772842858 +0000
+I, [2017-11-08T17:31:43.821297 #5433]  INFO -- repro-python-home-works-vagrant-1404:     @@ -1 +1,12 @@
+I, [2017-11-08T17:31:43.822423 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +#!/usr/bin/env python
+I, [2017-11-08T17:31:43.822670 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +
+I, [2017-11-08T17:31:43.822978 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +from setuptools import setup
+I, [2017-11-08T17:31:43.823196 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +
+I, [2017-11-08T17:31:43.823409 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +setup(name='test_python_project',
+I, [2017-11-08T17:31:43.823707 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +      version='0.0.1',
+I, [2017-11-08T17:31:43.824024 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +      classifiers=['Programming Language :: Python :: 3 :: Only'],
+I, [2017-11-08T17:31:43.824247 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +      install_requires=[
+I, [2017-11-08T17:31:43.824456 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +          'datadog==0.15.0',
+I, [2017-11-08T17:31:43.826465 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +      ]
+I, [2017-11-08T17:31:43.826969 #5433]  INFO -- repro-python-home-works-vagrant-1404:     +)[2017-11-08T22:31:43+00:00] INFO: cookbook_file[/home/ubuntu/test_python_project/setup.py] mode changed to 644
+I, [2017-11-08T17:31:43.827108 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.827301 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - change mode from '' to '0644'
+I, [2017-11-08T17:31:43.827394 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:43.827569 #5433]  INFO -- repro-python-home-works-vagrant-1404: Recipe: repro_python_home_works::default
+I, [2017-11-08T17:31:43.827823 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_execute[install test_python_project in dev mode] action run[2017-11-08T22:31:43+00:00] INFO: Processing python_execute[install test_python_project in dev mode] action run (repro_python_home_works::default line 23)
+I, [2017-11-08T17:31:44.179651 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:44.179700 #5433]  INFO -- repro-python-home-works-vagrant-1404:     [execute] Obtaining file:///home/ubuntu/test_python_project
+I, [2017-11-08T17:31:44.437140 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting datadog==0.15.0 (from test-python-project==0.0.1)
+I, [2017-11-08T17:31:44.759321 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading datadog-0.15.0.tar.gz (40kB)
+I, [2017-11-08T17:31:45.150427 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting decorator>=3.3.2 (from datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:45.266396 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading decorator-4.1.2-py2.py3-none-any.whl
+I, [2017-11-08T17:31:45.295892 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting requests>=2.6.0 (from datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:45.569881 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading requests-2.18.4-py2.py3-none-any.whl (88kB)
+I, [2017-11-08T17:31:45.647038 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting simplejson>=3.0.0 (from datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:46.045372 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading simplejson-3.12.0-py3-none-any.whl (51kB)
+I, [2017-11-08T17:31:46.219862 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting urllib3<1.23,>=1.21.1 (from requests>=2.6.0->datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:46.529227 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading urllib3-1.22-py2.py3-none-any.whl (132kB)
+I, [2017-11-08T17:31:46.745882 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting certifi>=2017.4.17 (from requests>=2.6.0->datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:46.808190 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading certifi-2017.11.5-py2.py3-none-any.whl (330kB)
+I, [2017-11-08T17:31:46.946465 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting idna<2.7,>=2.5 (from requests>=2.6.0->datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:46.989452 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading idna-2.6-py2.py3-none-any.whl (56kB)
+I, [2017-11-08T17:31:47.030920 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.6.0->datadog==0.15.0->test-python-project==0.0.1)
+I, [2017-11-08T17:31:47.073741 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Downloading chardet-3.0.4-py2.py3-none-any.whl (133kB)
+I, [2017-11-08T17:31:47.127850 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Building wheels for collected packages: datadog
+I, [2017-11-08T17:31:47.128996 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Running setup.py bdist_wheel for datadog: started
+I, [2017-11-08T17:31:47.446620 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Running setup.py bdist_wheel for datadog: finished with status 'done'
+I, [2017-11-08T17:31:47.447578 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Stored in directory: /home/ubuntu/.cache/pip/wheels/66/ac/a8/69a3a88fadad6cd55ef2a38d10ddd6a79b5fc27dffaa4d25b2
+I, [2017-11-08T17:31:47.461080 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Successfully built datadog
+I, [2017-11-08T17:31:47.461529 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Installing collected packages: decorator, urllib3, certifi, idna, chardet, requests, simplejson, datadog, test-python-project
+I, [2017-11-08T17:31:47.877115 #5433]  INFO -- repro-python-home-works-vagrant-1404:          Running setup.py develop for test-python-project
+I, [2017-11-08T17:31:48.223900 #5433]  INFO -- repro-python-home-works-vagrant-1404:        Successfully installed certifi-2017.11.5 chardet-3.0.4 datadog-0.15.0 decorator-4.1.2 idna-2.6 requests-2.18.4 simplejson-3.12.0 test-python-project urllib3-1.22
+I, [2017-11-08T17:31:48.340053 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:48+00:00] INFO: python_execute[install test_python_project in dev mode] ran successfully
+I, [2017-11-08T17:31:48.340106 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - execute ["/home/ubuntu/.virtualenvs/testvenv/bin/python", "-m", "pip", "install", "-e", "."]
+I, [2017-11-08T17:31:48.340124 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_package[pylint] action install[2017-11-08T22:31:48+00:00] INFO: Processing python_package[pylint] action install (repro_python_home_works::default line 34)
+I, [2017-11-08T17:31:52.657216 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:31:52+00:00] INFO: python_package[pylint] installed pylint at 1.7.4
+I, [2017-11-08T17:31:52.657269 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:31:52.657288 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - install version 1.7.4 of package pylint
+I, [2017-11-08T17:31:52.657303 #5433]  INFO -- repro-python-home-works-vagrant-1404:   * python_package[ipdb] action install[2017-11-08T22:31:52+00:00] INFO: Processing python_package[ipdb] action install (repro_python_home_works::default line 35)
+I, [2017-11-08T17:32:00.221663 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:32:00+00:00] INFO: python_package[ipdb] installed ipdb at 0.10.3
+I, [2017-11-08T17:32:00.221717 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:32:00.221736 #5433]  INFO -- repro-python-home-works-vagrant-1404:     - install version 0.10.3 of package ipdb
+I, [2017-11-08T17:32:00.265111 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:32:00+00:00] INFO: Chef Run complete in 41.070919854 seconds
+I, [2017-11-08T17:32:00.281967 #5433]  INFO -- repro-python-home-works-vagrant-1404: 
+I, [2017-11-08T17:32:00.282200 #5433]  INFO -- repro-python-home-works-vagrant-1404: Running handlers:
+I, [2017-11-08T17:32:00.282715 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:32:00+00:00] INFO: Running report handlers
+I, [2017-11-08T17:32:00.282998 #5433]  INFO -- repro-python-home-works-vagrant-1404: Running handlers complete
+I, [2017-11-08T17:32:00.283748 #5433]  INFO -- repro-python-home-works-vagrant-1404: [2017-11-08T22:32:00+00:00] INFO: Report handlers complete
+I, [2017-11-08T17:32:00.285344 #5433]  INFO -- repro-python-home-works-vagrant-1404: Chef Client finished, 15/16 resources updated in 43 seconds
+I, [2017-11-08T17:32:00.388333 #5433]  INFO -- repro-python-home-works-vagrant-1404: Finished converging <repro-python-home-works-vagrant-1404> (0m57.31s).

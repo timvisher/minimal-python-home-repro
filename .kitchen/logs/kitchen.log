@@ -1,0 +1,74 @@
+I, [2017-11-08T17:28:57.472117 #5433]  INFO -- Kitchen: -----> Starting Kitchen (v1.17.0)
+I, [2017-11-08T17:28:58.202408 #5433]  INFO -- Kitchen: -----> Creating <repro-python-home-vagrant-1404>...
+I, [2017-11-08T17:29:35.944785 #5433]  INFO -- Kitchen: -----> Converging <repro-python-home-vagrant-1404>...
+I, [2017-11-08T17:30:22.507196 #5433]  INFO -- Kitchen: -----> Creating <repro-python-home-works-vagrant-1404>...
+I, [2017-11-08T17:31:03.082613 #5433]  INFO -- Kitchen: -----> Converging <repro-python-home-works-vagrant-1404>...
+E, [2017-11-08T17:32:00.388914 #5433] ERROR -- Kitchen: ------Exception-------
+E, [2017-11-08T17:32:00.389147 #5433] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2017-11-08T17:32:00.389188 #5433] ERROR -- Kitchen: Message: 1 actions failed.
+>>>>>>     Converge failed on instance <repro-python-home-vagrant-1404>.  Please see .kitchen/logs/repro-python-home-vagrant-1404.log for more details
+E, [2017-11-08T17:32:00.389215 #5433] ERROR -- Kitchen: ----------------------
+E, [2017-11-08T17:32:00.389236 #5433] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-11-08T17:32:00.389256 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:183:in `report_errors'
+E, [2017-11-08T17:32:00.389275 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:174:in `run_action'
+E, [2017-11-08T17:32:00.389295 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command/action.rb:36:in `block in call'
+E, [2017-11-08T17:32:00.389319 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-11-08T17:32:00.389341 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command/action.rb:34:in `call'
+E, [2017-11-08T17:32:00.389362 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-11-08T17:32:00.389384 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/cli.rb:187:in `block (2 levels) in <class:CLI>'
+E, [2017-11-08T17:32:00.389407 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-11-08T17:32:00.389427 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-11-08T17:32:00.389446 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-11-08T17:32:00.389467 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-11-08T17:32:00.389485 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-11-08T17:32:00.389504 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-11-08T17:32:00.389529 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-11-08T17:32:00.389545 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-11-08T17:32:00.389561 #5433] ERROR -- Kitchen: /usr/local/bin/kitchen:267:in `load'
+E, [2017-11-08T17:32:00.389576 #5433] ERROR -- Kitchen: /usr/local/bin/kitchen:267:in `<main>'
+E, [2017-11-08T17:32:00.389591 #5433] ERROR -- Kitchen: ----End Backtrace-----
+E, [2017-11-08T17:32:00.389606 #5433] ERROR -- Kitchen: -Composite Exception--
+E, [2017-11-08T17:32:00.389621 #5433] ERROR -- Kitchen: Class: Kitchen::InstanceFailure
+E, [2017-11-08T17:32:00.389637 #5433] ERROR -- Kitchen: Message: Converge failed on instance <repro-python-home-vagrant-1404>.  Please see .kitchen/logs/repro-python-home-vagrant-1404.log for more details
+E, [2017-11-08T17:32:00.389664 #5433] ERROR -- Kitchen: ----------------------
+E, [2017-11-08T17:32:00.389682 #5433] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-11-08T17:32:00.389698 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-11-08T17:32:00.389714 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-11-08T17:32:00.389731 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-11-08T17:32:00.389758 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-11-08T17:32:00.389776 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-11-08T17:32:00.389795 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-11-08T17:32:00.389814 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-11-08T17:32:00.389834 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-11-08T17:32:00.389943 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-11-08T17:32:00.389966 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-11-08T17:32:00.389987 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-11-08T17:32:00.390006 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:135:in `converge'
+E, [2017-11-08T17:32:00.390055 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-11-08T17:32:00.390077 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-11-08T17:32:00.390097 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-11-08T17:32:00.390115 #5433] ERROR -- Kitchen: ----End Backtrace-----
+E, [2017-11-08T17:32:00.390133 #5433] ERROR -- Kitchen: ---Nested Exception---
+E, [2017-11-08T17:32:00.390149 #5433] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2017-11-08T17:32:00.390165 #5433] ERROR -- Kitchen: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --no-color --json-attributes /tmp/kitchen/dna.json  --force-formatter 
+']
+E, [2017-11-08T17:32:00.390182 #5433] ERROR -- Kitchen: ----------------------
+E, [2017-11-08T17:32:00.390198 #5433] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-11-08T17:32:00.390214 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-11-08T17:32:00.390230 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-11-08T17:32:00.390246 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-11-08T17:32:00.390262 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-11-08T17:32:00.390690 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-11-08T17:32:00.390730 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-11-08T17:32:00.390752 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-11-08T17:32:00.390765 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-11-08T17:32:00.390776 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-11-08T17:32:00.390786 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-11-08T17:32:00.390796 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-11-08T17:32:00.390806 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:135:in `converge'
+E, [2017-11-08T17:32:00.390816 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-11-08T17:32:00.390826 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-11-08T17:32:00.390836 #5433] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-11-08T17:32:00.390846 #5433] ERROR -- Kitchen: ----End Backtrace-----
